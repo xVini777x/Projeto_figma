@@ -1325,11 +1325,9 @@ nav ul li a {
 }
 
 .btn-contact-2 {
-  width: 160px;
-  height: 58px;
   background: #ffa62b;
   border-radius: 5px;
-  padding: 15px 40px;
+  padding: 13px 30px;
   color: #fff !important;
 }
 .btn-contact-2:hover {
