@@ -821,38 +821,34 @@ nav ul li a {
   font-size: 18px;
   line-height: 30px;
   letter-spacing: 0.2px;
-  margin-bottom: 70px;
+  margin-bottom: 45px;
   color: #fff;
 }
-.container-cta .btn-cta {
+.container-cta .div-btn-cta {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
   gap: 10px;
 }
 @media only screen and (max-width: 991px) {
-  .container-cta .btn-cta {
+  .container-cta .div-btn-cta {
     justify-content: center;
   }
 }
-.container-cta .btn-cta-1 {
+.container-cta .btn-cta {
   background: #ffa62b;
   margin-right: 10px;
   border-radius: 37px;
-  padding: 10px 36px;
-  color: #fff !important;
+  padding: 10px 15px;
+  color: #fff;
 }
-.container-cta .btn-cta-1:hover {
+.container-cta .btn-cta:hover {
   color: #173f47 !important;
 }
-.container-cta .btn-cta-2 {
-  padding: 10px 36px;
-  border: 1px solid #ffffff;
-  border-radius: 37px;
-  color: #fff !important;
-}
-.container-cta .btn-cta-2:hover {
-  color: #173f47 !important;
+.container-cta .btn-cta__btn-2 {
+  background-color: transparent;
+  border: 1px solid #ffffff !important;
+  color: #fff;
 }
 
 .home-cta-input {
@@ -1047,6 +1043,11 @@ nav ul li a {
 @media only screen and (max-width: 992px) {
   .container-section-continued .section-continued-img img {
     width: 600px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .container-section-continued .section-continued-img img {
+    width: 450px;
   }
 }
 @media only screen and (max-width: 500px) {
@@ -1282,8 +1283,7 @@ nav ul li a {
 .container-section-contact form .btn-inputs-2 {
   background: #ffa62b;
   border-radius: 5px;
-  width: 230px;
-  height: 58px;
+  padding: 10px 33px;
   margin-top: 20px;
   color: #fff;
 }
@@ -1298,12 +1298,23 @@ nav ul li a {
   justify-content: space-around;
   flex-wrap: wrap;
 }
+@media only screen and (max-width: 666px) {
+  .container-contact-2 {
+    justify-content: flex-start;
+    padding: 25px 20px;
+  }
+}
 .container-contact-2 header h1 {
   color: #252b42;
   font-weight: bold;
   font-size: 30px;
   line-height: 32px;
   letter-spacing: 0.5px;
+}
+@media only screen and (max-width: 500px) {
+  .container-contact-2 header h1 {
+    font-size: 25px;
+  }
 }
 .container-contact-2 header p {
   font-weight: 500;

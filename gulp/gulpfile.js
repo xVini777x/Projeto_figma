@@ -14,7 +14,7 @@ path = {
   php: "../**/*.php", //DIRETORIO DE DESENVOLVIMENTO
   dev: "../src", //DIRETORIO DE DESENVOLVIMENTO
   prod: "../assets", //DIRETORIO DE PRODUCAO
-  proxy: "http://localhost/portfólio/", //URL DO PROJETO LOCAL
+  proxy: "http://localhost/teste_figmar/", //URL DO PROJETO LOCAL
 };
 
 const gulp = require("gulp");
